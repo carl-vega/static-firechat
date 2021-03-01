@@ -1,0 +1,50 @@
+.chatmain {
+  margin: 0 10%;
+}
+
+.chatmain > section {
+  border: 1px solid grey;
+}
+.chatmessages {
+  border-radius: 5px 5px 0 0;
+  height: 86vh;
+  width: 100%;
+  padding: 0 10px;
+}
+.chatinput {
+  border-top-style: none !important;
+  border-radius: 0 0 5px 5px;
+  height: 8vh;
+  width: 100%;
+  padding: 0 10px;
+}
+.chatinput > form {
+  display: grid;
+  grid-template-columns: 90% 10%;
+  padding-top: 10px;
+}
+.chatinput > form > input {
+  width: 100%;
+}
+.chatinput > form > button {
+  height: fit-content;
+  align-self: center;
+  border-radius: 0 15px 15px 0;
+}
+.chatinput > form > button:focus {
+  outline: none;
+}
+.bubbles {
+  list-style-type: none;
+  padding: 0;
+  display: grid;
+  grid-template-rows: 1fr;
+}
+.bubbleout {
+  border: 1px solid grey;
+  border-radius: 15px 15px 0 15px;
+  width: fit-content;
+  padding: 5px;
+  margin: 2px 0;
+  justify-self: end;
+}
